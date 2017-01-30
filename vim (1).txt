@@ -1,0 +1,61 @@
+
+============================================================================
+*Marks WORD means any kind word: hello, bye adios any strings.
+============================================================================
+
+-- . repeating last command 
+
+-- dG delete whole page below cursor 
+
+-- di" delete everything(WORD) in "WORD" cursor should be pointed 
+
+-- ci" deletes and put in insert mode
+
+-- ^ start of the line 
+
+-- $ end the line 
+
+-- >j move current line and line below (like Tabbing)
+
+-- > move current line to the right (like Tabbing)
+
+-- gg goes to first line and first word 
+
+-- G goes to Last line and first word 
+
+-- Ctrl+p is word auto-completion (changinc inside up and down works  Ctrl+p and Ctrl+n or just using arrow)
+
+-- F2 is key shortcut for on/off paste mode when we are in insert mode. set pastetoggle=<F2> " Turn on/off the set paste (this make copping from outside normally)  
+
+-- :%s/WORD/WORD/g  replace all old with new throughout file
+
+--
+
+			This needs Plugin surrounding.vim to execute 
+
+-- ds" this deletes surrounding " " e.g. "Hello World!" after that command it will be Hello World!
+
+-- cs"( this changes surrounding " " with ( ) e.g. "Hello World!" after that command it will be  (Hello World!)  
+
+-- dst this deletes surrounding tags e.g. <p> Hello world </p> after execution it will be Hello world 
+
+-- cst this changes surrounding tags e.g. </p> Hello </p> and we write tag which we want to be placed <strong>. after execution it will be <strong> Hello </strong>
+
+--------------------------------------------------------------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------
+				How to comment #
+				#CTRL+v 
+				#Select Text 
+				#CTRL+i
+				#Type what kind of comment I want e.g. " # "
+				#And it appears like this   
+				
+-----------------------------------------------------------------				
+				How to uncomment #
+				CTRL+v
+				Select used comment symbol e.g. " # "
+				Press d and it deletes it's self
+				
+-----------------------------------------------------------------
