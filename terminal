@@ -1,0 +1,8 @@
+Ctrl + Shift + - this do undo
+Ctrl + p search previous command
+Ctrl + n search next command
+Ctrl + q to unfreeze the terminal(sometime we press Ctrl + s and it resultes to freez)
+Ctrl + w (Alt + Backspace)  to delete whole word 
+Ctrl + y to restore deleted 
+Ctrl + u deletes everything before cursor
+Ctrl + k deletes everything after cursor 
