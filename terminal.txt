@@ -6,3 +6,8 @@ Ctrl + w (Alt + Backspace)  to delete whole word
 Ctrl + y to restore deleted 
 Ctrl + u deletes everything before cursor
 Ctrl + k deletes everything after cursor 
+Ctrl + a jump to begingig of the libe 
+Ctrl + e jump to end of the line 
+Alt + r  Undo all changes to the line
+Alt + Ctrl  to Select some colums in top or whatever we need 
+Alt + d delet word after cursor  
