@@ -32,6 +32,8 @@
 --
 
 			This needs Plugin surrounding.vim to execute 
+			
+-- csw" this let to surrond word it anything we want e.g. hello (csw") "hello"
 
 -- ds" this deletes surrounding " " e.g. "Hello World!" after that command it will be Hello World!
 
