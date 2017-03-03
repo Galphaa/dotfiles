@@ -8,6 +8,8 @@
  set linebreak                                   "this make words braking look more smooth"
  set number                                      "to make numbers appear.
  let mapleader=','
+ set wildmenu                                    "gives suggestion for tabbing like zsh.
+ set scrolloff=5                                 "when scrolling down courser stays on5 line above or down during scroling 
  "<-------------Searching ------------->"
  set hlsearch
  set t_CO=256                                    "set terminal to read 256bit color spe    ctroom"
