@@ -42,7 +42,17 @@
 
 -- F2 is key shortcut for on/off paste mode when we are in insert mode. set pastetoggle=<F2> " Turn on/off the set paste (this make copping from outside normally)  
 
-				 VIM tabs manipulation
+				 Advance copping or manipulationg copyed stuff 
+				
+-- reg is for register and it remembers all ragister that we may need or we inputed 
+
+-- "WORD and any command e.g. "WORDdd it will register what we want and delete. using advance coping and  
+
+
+
+-------------------------------------------> VIM tabs manipulation <-----------------------------------------------------
+
+
 
 -- :tabe open another tab in vim 
 
@@ -57,9 +67,21 @@
 
 -- :%s/WORD/WORD/g  replace all old with new throughout file
 
---
+-- 
 
-				This needs Plugin surrounding.vim to execute 
+
+--------------------------------------------> Tips and usefule stuff <-----------------------------------------------------
+
+				 	
+					
+-- reg is register and it remmembers all copp					
+					
+-- set cursorline this gievs line to cursor position to be more appearance  					
+
+
+
+-----------------------------------> This needs Plugin surrounding.vim to execute <-----------------------------------------
+
 			
 -- csw" this let to surrond word it anything we want e.g. hello (csw") "hello"
 
