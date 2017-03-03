@@ -5,7 +5,7 @@
  syntax enable
 
  colorscheme ron
-
+ set linebreak                                   "this make words braking look more smooth"
  set number                                      "to make numbers appear.
  let mapleader=','
  "<-------------Searching ------------->"
