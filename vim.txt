@@ -48,7 +48,15 @@
 
 -- F2 is key shortcut for on/off paste mode when we are in insert mode. set pastetoggle=<F2> " Turn on/off the set paste (this make copping from outside normally)  
 
-				 Advance copping or manipulationg copyed stuff 
+
+
+============================================================================================================================
+
+----------------------------------------> Advance copping or manipulationg copyed stuff <-----------------------------------
+
+============================================================================================================================
+
+
 				
 -- reg is for register and it remembers all ragister that we may need or we inputed 
 
