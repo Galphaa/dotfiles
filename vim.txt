@@ -42,7 +42,7 @@
 
 -- F2 is key shortcut for on/off paste mode when we are in insert mode. set pastetoggle=<F2> " Turn on/off the set paste (this make copping from outside normally)  
 
-
+				 VIM tabs manipulation
 
 -- :tabe open another tab in vim 
 
