@@ -1,7 +1,20 @@
 
 ========================================================================================================================================
+			
 				*Marks WORD means any kind word: hello, bye adios any strings.
+				mostly used firs letters and there meaning 
+				c -- stands for chang and put in to insert mode  
+				d -- stands delete
+			 	v -- stands fot visual selecting
+				w -- word
+				i -- inter
+				a -- when selecting including spaces (around)
+
+
+
 ========================================================================================================================================
+
+-- vat or vit, it selects everything + tags and vit  selects only characters inside the tag 
 
 -- vip selects whole paragrafs, vap selects whole paragrafs + space.
 
@@ -32,6 +45,19 @@
 -- Ctrl+p is word auto-completion (changinc inside up and down works  Ctrl+p and Ctrl+n or just using arrow)
 
 -- F2 is key shortcut for on/off paste mode when we are in insert mode. set pastetoggle=<F2> " Turn on/off the set paste (this make copping from outside normally)  
+
+
+
+-- :tabe open another tab in vim 
+
+-- :tabn changes to next tab 
+
+-- :tabp changes to previous tab 
+
+-- :tabfind {file}   open a new tab with filename given, searching the 'path' to find it
+
+-- :tabclose close current tab
+
 
 -- :%s/WORD/WORD/g  replace all old with new throughout file
 
