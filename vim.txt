@@ -1,6 +1,5 @@
 
-========================================================================================================================================
-			
+=======================================================================================================================================	
 				*Marks WORD means any kind word: hello, bye adios any strings.
 				mostly used firs letters and there meaning 
 				c -- stands for chang and put in to insert mode  
@@ -9,9 +8,6 @@
 				w -- word
 				i -- inter
 				a -- when selecting including spaces (around)
-
-
-
 ========================================================================================================================================
 
 -- vat or vit, it selects everything + tags and vit  selects only characters inside the tag 
