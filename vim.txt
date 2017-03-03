@@ -3,6 +3,8 @@
 				*Marks WORD means any kind word: hello, bye adios any strings.
 ========================================================================================================================================
 
+-- vip selects whole paragrafs, vap selects whole paragrafs + space.
+
 -- B and W whole sentance w and b jumps one word (wW next word and bB previous)
 
 -- daw this deleta whole line with space  or whole line e.g. ("hello ") or (console.log"hello" pk.js)  delate till pk.js
