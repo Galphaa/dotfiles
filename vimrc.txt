@@ -46,3 +46,7 @@
 
   set pastetoggle=<F2>                          " Turn on/off the set paste (this make copping from outside normally )
 
+"---------------Indentation-Guides-------------------"
+
+set listchars=tab:\|\ 
+set list
