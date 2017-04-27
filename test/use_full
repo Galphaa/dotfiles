@@ -1,0 +1,2 @@
+cut -d ' ' --output-delimiter=$'\n' -f 1- FILE NAME
+pidof chrome > a; cut -d ' ' --output-delimiter=$'\n' -f 1- a > l 
