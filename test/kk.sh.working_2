@@ -14,13 +14,12 @@ do
 	s=${critical//[[:blank:]]/}
 	if (( $(bc <<< "$2 > $s") ))
 	then 
-		kill -11 $NAME 
+		kill -11 $NAME > /dev/null 2>&1
 		break
-		
-	else (( $(bc <<< "$2 > $s") ))
+	else
 		#for i in list_PID
 		#do
-		killall -11 $1
+		killall -11 $1 > /dev/null 2>&1
 		#done
 		break
 	fi

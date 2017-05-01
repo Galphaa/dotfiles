@@ -1,0 +1,9 @@
+a="1.3"
+s="2"
+
+if (( $(bc << "$s > $a") ))
+then 
+	echo "s is > than a"
+else 
+	echo "a is > than s"
+fi

@@ -1,27 +1,25 @@
 #!/bin/bash
 
-#pidof $1 > PID; cut -d ' ' --output-delimiter=$'\n' -f 1- PID > list_PID 
+pidof $1 > PID; cut -d ' ' --output-delimiter=$'\n' -f 1- PID > list_PID 
 
 #[ -f "text.txt" ] && echo dd"text.txt exist" || touch text.txt
-
 NAME=`pidof $1`  # this is value for proces id of program we want
 
 while true 
 do 
-	ps -p $NAME -o %mem > test.txt 
+	ps -p $NAME -o %mem > test.txt #> /dev/null 2>&1
 	cat test.txt
 	critical=`awk 'FNR>=2' test.txt` 
 	s=${critical//[[:blank:]]/}
 	if (( $(bc <<< "$2 > $s") ))
 	then 
-		kill -11 $NAME 
+		kill -11 $NAME
 		break
-		
-	else (( $(bc <<< "$2 > $s") ))
-		#for i in list_PID
-		#do
+	else
+		for i in list_PID
+		do
 		killall -11 $1
-		#done
+		done
 		break
 	fi
 	sleep 1
@@ -29,4 +27,4 @@ done
 
 # cleaning
 
-#rm PID list_PID test.txt
+rm PID list_PID test.txt
