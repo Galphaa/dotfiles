@@ -1,0 +1,269 @@
+top - 15:07:31 up  2:42,  1 user,  load average: 0,06, 0,10, 0,09
+Tasks: 262 total,   1 running, 261 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  6,6 us,  1,8 sy,  0,1 ni, 91,4 id,  0,1 wa,  0,0 hi,  0,0 si,  0,0 st
+KiB Mem :  6110212 total,   505948 free,  4757480 used,   846784 buff/cache
+KiB Swap:        0 total,        0 free,        0 used.   785584 avail Mem 
+
+  PID USER      PR  NI    VIRT    RES    SHR S  %CPU %MEM     TIME+ COMMAND
+ 1998 root      20   0  240432  56460  36300 S  12,5  0,9   2:02.01 Xorg
+30808 root      20   0   41804   3724   3156 R   6,2  0,1   0:00.01 top
+    1 root      20   0  185428   4964   2892 S   0,0  0,1   0:01.31 systemd
+    2 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kthreadd
+    3 root      20   0       0      0      0 S   0,0  0,0   0:00.11 ksoftirqd/0
+    5 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/0:0H
+    7 root      20   0       0      0      0 S   0,0  0,0   0:03.82 rcu_sched
+    8 root      20   0       0      0      0 S   0,0  0,0   0:00.00 rcu_bh
+    9 root      rt   0       0      0      0 S   0,0  0,0   0:00.30 migration/0
+   10 root      rt   0       0      0      0 S   0,0  0,0   0:00.01 watchdog/0
+   11 root      rt   0       0      0      0 S   0,0  0,0   0:00.02 watchdog/1
+   12 root      rt   0       0      0      0 S   0,0  0,0   0:00.30 migration/1
+   13 root      20   0       0      0      0 S   0,0  0,0   0:00.13 ksoftirqd/1
+   15 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/1:0H
+   16 root      rt   0       0      0      0 S   0,0  0,0   0:00.01 watchdog/2
+   17 root      rt   0       0      0      0 S   0,0  0,0   0:00.02 migration/2
+   18 root      20   0       0      0      0 S   0,0  0,0   0:00.22 ksoftirqd/2
+   20 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/2:0H
+   21 root      rt   0       0      0      0 S   0,0  0,0   0:00.01 watchdog/3
+   22 root      rt   0       0      0      0 S   0,0  0,0   0:00.30 migration/3
+   23 root      20   0       0      0      0 S   0,0  0,0   0:00.12 ksoftirqd/3
+   25 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kworker/3:0H
+   26 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kdevtmpfs
+   27 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 netns
+   28 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 perf
+   29 root      20   0       0      0      0 S   0,0  0,0   0:00.00 khungtaskd
+   30 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 writeback
+   31 root      25   5       0      0      0 S   0,0  0,0   0:00.00 ksmd
+   32 root      39  19       0      0      0 S   0,0  0,0   0:01.88 khugepaged
+   33 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 crypto
+   34 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kintegrityd
+   35 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   36 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kblockd
+   37 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ata_sff
+   38 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 md
+   39 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 devfreq_wq
+   45 root      20   0       0      0      0 S   0,0  0,0   0:00.88 kswapd0
+   46 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 vmstat
+   47 root      20   0       0      0      0 S   0,0  0,0   0:00.00 fsnotify_mark
+   48 root      20   0       0      0      0 S   0,0  0,0   0:00.00 ecryptfs-kthrea
+   64 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kthrotld
+   65 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 acpi_thermal_pm
+   66 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   67 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   68 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   69 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   70 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   71 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   72 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   73 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+   74 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_0
+   75 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 scsi_tmf_0
+   76 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_1
+   77 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 scsi_tmf_1
+   79 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_2
+   80 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 scsi_tmf_2
+   81 root      20   0       0      0      0 S   0,0  0,0   0:00.00 scsi_eh_3
+   82 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 scsi_tmf_3
+   89 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ipv6_addrconf
+  102 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 deferwq
+  103 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 charger_manager
+  106 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 bioset
+  146 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kpsmoused
+  171 root       0 -20       0      0      0 S   0,0  0,0   0:00.03 kworker/2:1H
+  172 root       0 -20       0      0      0 S   0,0  0,0   0:00.01 kworker/0:1H
+  174 root      20   0       0      0      0 S   0,0  0,0   0:01.13 jbd2/sda1-8
+  175 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ext4-rsv-conver
+  203 root      20   0       0      0      0 S   0,0  0,0   0:00.00 kauditd
+  217 root      20   0   34848   4372   3908 S   0,0  0,1   0:00.22 systemd-journal
+  222 root       0 -20       0      0      0 S   0,0  0,0   0:00.47 kworker/1:1H
+  249 root      20   0   45380   3840   2332 S   0,0  0,1   0:00.19 systemd-udevd
+  264 root       0 -20       0      0      0 S   0,0  0,0   0:00.04 kworker/3:1H
+  343 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 kvm-irqfd-clean
+  459 root      20   0       0      0      0 S   0,0  0,0   0:00.00 UVM global queu
+  460 root      20   0       0      0      0 S   0,0  0,0   0:00.00 UVM Tools Event
+  512 root      20   0       0      0      0 S   0,0  0,0   0:00.00 jbd2/sda5-8
+  513 root       0 -20       0      0      0 S   0,0  0,0   0:00.00 ext4-rsv-conver
+  614 systemd+  20   0  102384   2664   2448 S   0,0  0,0   0:00.01 systemd-timesyn
+  691 avahi     20   0   44920   3020   2684 S   0,0  0,0   0:00.04 avahi-daemon
+  693 root      20   0    4400   1292   1200 S   0,0  0,0   0:01.55 acpid
+  699 root      20   0   28624   3032   2652 S   0,0  0,0   0:00.03 systemd-logind
+  707 root      20   0  370708  20588   7116 S   0,0  0,3   0:00.40 snapd
+  724 root      20   0  337316   6744   5064 S   0,0  0,1   0:00.02 ModemManager
+  733 whoopsie  20   0  447728  11484   9832 S   0,0  0,2   0:00.02 whoopsie
+  739 message+  20   0   44272   5048   3392 S   0,0  0,1   0:00.39 dbus-daemon
+  759 omega     20   0  954044 185112  80468 S   0,0  3,0   0:08.45 chrome
+  778 avahi     20   0   44788    336      0 S   0,0  0,0   0:00.00 avahi-daemon
+  785 root      20   0  276004   8456   5564 S   0,0  0,1   0:00.13 accounts-daemon
+  804 root      20   0   25216   4048   3332 S   0,0  0,1   0:00.02 smartd
+  807 root      20   0  522720  14040   9428 S   0,0  0,2   0:00.16 NetworkManager
+  815 syslog    20   0  256396   2900   2444 S   0,0  0,0   0:00.05 rsyslogd
+  826 root      20   0   29012   3052   2780 S   0,0  0,0   0:00.00 cron
+  850 glance    20   0  168976  97924   6940 S   0,0  1,6   0:01.11 glance-registry
+  856 glance    20   0  261756 129260   9944 S   0,0  2,1   0:52.63 glance-api
+  922 root      20   0   19472   2276   2032 S   0,0  0,0   0:00.25 irqbalance
+  933 root      35  15   19180   6600   2552 S   0,0  0,1   0:09.01 preload
+  939 root      20   0  278976   7960   5604 S   0,0  0,1   0:00.14 polkitd
+  951 root      20   0  350376   5896   5072 S   0,0  0,1   0:00.00 lightdm
+ 1306 omega     20   0  664560  44336  26948 S   0,0  0,7   0:21.39 gnome-terminal-
+ 1313 omega     20   0   22708   5172   3296 S   0,0  0,1   0:00.02 bash
+ 1317 root      20   0   65520   4468   3772 S   0,0  0,1   0:00.01 sshd
+ 1324 root      20   0   54380   3544   3104 S   0,0  0,1   0:00.01 su
+ 1325 root      20   0   58232   7324   4420 S   0,0  0,1   0:00.87 zsh
+ 1609 omega     20   0 1466448 486484 132068 S   0,0  8,0   3:01.02 chrome
+ 2017 nobody    20   0   52872   4032   3640 S   0,0  0,1   0:00.17 dnsmasq
+ 2121 root     -51   0       0      0      0 S   0,0  0,0   0:33.18 irq/29-nvidia
+ 2122 root      20   0       0      0      0 S   0,0  0,0   0:00.00 nvidia
+ 2126 nvidia-+  20   0   17100   1476   1308 S   0,0  0,0   0:00.00 nvidia-persiste
+ 2189 glance    20   0  168976  94656   3668 S   0,0  1,5   0:00.01 glance-registry
+ 2190 glance    20   0  168976  94660   3668 S   0,0  1,5   0:00.01 glance-registry
+ 2191 glance    20   0  168976  94660   3668 S   0,0  1,5   0:00.00 glance-registry
+ 2192 glance    20   0  168976  94660   3668 S   0,0  1,5   0:00.00 glance-registry
+ 2204 root      20   0  228240   5960   5244 S   0,0  0,1   0:00.00 lightdm
+ 2210 omega     20   0   45248   3480   2784 S   0,0  0,1   0:00.01 systemd
+ 2212 omega     20   0   63508   2148      0 S   0,0  0,0   0:00.00 (sd-pam)
+ 2216 omega     20   0   46488   4520   3316 S   0,0  0,1   0:00.17 upstart
+ 2290 omega     20   0   32864    272      0 S   0,0  0,0   0:00.02 upstart-udev-br
+ 2303 omega     20   0   44016   4468   2860 S   0,0  0,1   0:02.16 dbus-daemon
+ 2315 omega     20   0   86356   6168   5536 S   0,0  0,1   0:00.09 window-stack-br
+ 2354 omega     20   0   11140    320      0 S   0,0  0,0   0:00.00 ssh-agent
+ 2357 omega     20   0   32800    324      0 S   0,0  0,0   0:00.04 upstart-dbus-br
+ 2366 omega     20   0  166544    740    448 S   0,0  0,0   0:00.12 gpg-agent
+ 2368 omega     20   0  560600  32140  23544 S   0,0  0,5   0:03.51 bamfdaemon
+ 2370 omega     20   0   41292    416      0 S   0,0  0,0   0:00.00 upstart-file-br
+ 2373 omega     20   0   32908   1564   1168 S   0,0  0,0   0:00.33 upstart-dbus-br
+ 2375 omega     20   0  349516  11448   5180 S   0,0  0,2   0:23.78 ibus-daemon
+ 2382 omega     20   0  274528   5892   5136 S   0,0  0,1   0:00.03 gvfsd
+ 2389 omega     20   0  406860   5116   4584 S   0,0  0,1   0:00.00 gvfsd-fuse
+ 2391 glance    20   0  261756 123060   3724 S   0,0  2,0   0:00.00 glance-api
+ 2392 omega     20   0  264264   6020   5468 S   0,0  0,1   0:00.00 ibus-dconf
+ 2393 omega     20   0  516216  36188  26476 S   0,0  0,6   0:07.12 ibus-ui-gtk3
+ 2394 glance    20   0  261756 123060   3724 S   0,0  2,0   0:00.00 glance-api
+ 2398 omega     20   0  420668  19944  16700 S   0,0  0,3   0:00.16 ibus-x11
+ 2403 glance    20   0  261756 123060   3724 S   0,0  2,0   0:00.00 glance-api
+ 2406 glance    20   0  261756 123060   3724 S   0,0  2,0   0:00.00 glance-api
+ 2413 omega     20   0  338012   7464   4948 S   0,0  0,1   0:00.00 at-spi-bus-laun
+ 2421 omega     20   0   43028   4016   3436 S   0,0  0,1   0:00.14 dbus-daemon
+ 2427 omega     20   0  206976   5296   4800 S   0,0  0,1   0:00.54 at-spi2-registr
+ 2438 omega     20   0  188392   5328   4976 S   0,0  0,1   0:05.81 ibus-engine-sim
+ 2452 omega     20   0  643212  43116  24964 S   0,0  0,7   0:02.13 hud-service
+ 2454 omega     20   0 1053856  29232  22072 S   0,0  0,5   0:00.65 unity-settings-
+ 2461 omega     20   0  559676  14136  12004 S   0,0  0,2   0:00.20 gnome-session-b
+ 2467 omega     20   0  633632  32864  22600 S   0,0  0,5   0:03.94 unity-panel-ser
+ 2483 root      20   0  347132  10576   7424 S   0,0  0,2   0:00.07 upowerd
+ 2493 omega     20   0  354432   8688   5604 S   0,0  0,1   0:00.01 indicator-messa
+ 2494 omega     20   0  407136   4232   3844 S   0,0  0,1   0:00.00 indicator-bluet
+ 2495 omega     20   0  421892  10220   5608 S   0,0  0,2   0:00.02 indicator-power
+ 2496 omega     20   0 1233196  12692   9892 S   0,0  0,2   0:00.13 indicator-datet
+ 2506 omega     20   0  641864  25852  18656 S   0,0  0,4   0:00.29 indicator-keybo
+ 2509 omega     20   0  737436  11456   7344 S   0,0  0,2   0:00.07 indicator-sound
+ 2510 omega     20   0  540172  23144  19112 S   0,0  0,4   0:00.18 indicator-print
+ 2511 omega     20   0  952892   8124   5232 S   0,0  0,1   0:00.06 indicator-sessi
+ 2539 omega     20   0  395940  12340  10916 S   0,0  0,2   0:00.04 indicator-appli
+ 2541 omega     20   0 1104616  20364  14564 S   0,0  0,3   0:00.06 evolution-sourc
+ 2573 omega     20   0  178796   4908   4196 S   0,0  0,1   0:00.77 dconf-service
+ 2592 omega      9 -11  508884  10012   6836 S   0,0  0,2   0:44.56 pulseaudio
+ 2593 rtkit     21   1  183544   3008   2720 S   0,0  0,0   0:00.04 rtkit-daemon
+ 2610 omega     20   0  855848  54132  16200 S   0,0  0,9   0:00.12 evolution-calen
+ 2611 omega     20   0 1624136 333728  63656 S   0,0  5,5   3:37.92 compiz
+ 2613 colord    20   0  301220  10556   7864 S   0,0  0,2   0:00.08 colord
+ 2633 omega     20   0  816000  47448   9012 S   0,0  0,8   0:00.09 evolution-calen
+ 2643 omega     20   0  690584  15544  10884 S   0,0  0,3   0:00.03 evolution-addre
+ 2645 omega     20   0  865916  49584   9064 S   0,0  0,8   0:00.08 evolution-calen
+ 2652 omega     20   0  905344  12632  10092 S   0,0  0,2   0:00.02 evolution-addre
+ 2678 omega     20   0  285316   9064   5944 S   0,0  0,1   0:00.03 gvfs-udisks2-vo
+ 2681 root      20   0  366644   9476   5800 S   0,0  0,2   0:01.20 udisksd
+ 2690 omega     20   0  403612   7964   6940 S   0,0  0,1   0:00.00 gvfs-afc-volume
+ 2696 omega     20   0  271728   4736   4204 S   0,0  0,1   0:00.00 gvfs-gphoto2-vo
+ 2701 omega     20   0  259532   4420   4004 S   0,0  0,1   0:00.00 gvfs-mtp-volume
+ 2706 omega     20   0  257544   4104   3788 S   0,0  0,1   0:00.00 gvfs-goa-volume
+ 2716 omega     20   0  782384  47924  36360 S   0,0  0,8   0:00.90 nautilus
+ 2731 omega     20   0  350576   6180   5408 S   0,0  0,1   0:00.01 gvfsd-trash
+ 2743 omega     20   0  422068  21012  15756 S   0,0  0,3   0:00.20 polkit-gnome-au
+ 2744 omega     20   0  569644  18988  15816 S   0,0  0,3   0:00.20 unity-fallback-
+ 2745 omega     20   0 1312980 117232  21776 S   0,0  1,9   0:04.97 gnome-software
+ 2752 omega     20   0  582360  30288  23052 S   0,0  0,5   0:00.25 nm-applet
+ 2756 omega     20   0  654148  34620  25248 S   0,0  0,6   0:00.49 tilda
+ 2757 omega     20   0 1045300  58472  33144 S   0,0  1,0   0:17.35 synergy
+ 2793 root      20   0   15944   1788   1652 S   0,0  0,0   0:00.00 agetty
+ 2809 omega     20   0   61176   5324   4872 S   0,0  0,1   0:00.00 gconfd-2
+ 2828 root      20   0  628752  32924   7396 S   0,0  0,5   0:00.69 fwupd
+ 2841 omega     20   0   22696   5280   3300 S   0,0  0,1   0:00.02 bash
+ 2855 omega     20   0  426684   6176   5424 S   0,0  0,1   0:00.01 gvfsd-network
+ 2865 omega     20   0  185984   5376   4888 S   0,0  0,1   0:00.00 gvfsd-metadata
+ 2869 omega     20   0  131548   6272   5400 S   0,0  0,1   0:11.85 synergyc
+ 2889 omega     20   0  361724   6264   5504 S   0,0  0,1   0:00.00 gvfsd-dnssd
+ 3500 omega     20   0  511208  17224  12900 S   0,0  0,3   0:00.16 zeitgeist-datah
+ 3507 omega     20   0    4508    704    624 S   0,0  0,0   0:00.00 sh
+ 3511 omega     20   0  410384   9216   5848 S   0,0  0,2   0:00.09 zeitgeist-daemo
+ 3518 omega     20   0  317504  13448  10532 S   0,0  0,2   0:00.12 zeitgeist-fts
+ 3862 omega     20   0   22708   5188   3308 S   0,0  0,1   0:00.02 bash
+ 3872 root      20   0   54380   3624   3188 S   0,0  0,1   0:00.00 su
+ 3934 root      20   0   60036   9244   4436 S   0,0  0,2   0:01.39 zsh
+ 4771 omega     20   0  515768  22212  18736 S   0,0  0,4   0:00.28 update-notifier
+ 4800 omega     20   0  333680  13484   9144 S   0,0  0,2   0:00.02 unity-music-dae
+ 5336 omega     20   0  970144 210512  81364 S   0,0  3,4   0:09.20 chrome
+ 6876 omega     20   0   22692   5320   3332 S   0,0  0,1   0:00.02 bash
+ 6886 root      20   0   54380   3544   3108 S   0,0  0,1   0:00.01 su
+ 6887 root      20   0   58528   7748   4428 S   0,0  0,1   0:01.26 zsh
+ 6901 omega     20   0  435460   8452   5616 S   0,0  0,1   0:00.02 deja-dup-monito
+ 7177 omega     20   0  825396 107276  65728 S   0,0  1,8   0:02.85 chrome
+ 7523 omega     20   0  823876 108068  64564 S   0,0  1,8   0:01.53 chrome
+ 7781 omega     20   0  479460  27180  22768 S   0,0  0,4   0:00.28 notify-osd
+10821 root      20   0   54792   9452   5628 S   0,0  0,2   0:00.17 vim
+11568 root      20   0  274820   8972   7736 S   0,0  0,1   0:00.01 cups-browsed
+12243 root      20   0   16116   3084   2232 S   0,0  0,1   0:00.00 dhclient
+12665 omega     20   0  974460 207180  71820 S   0,0  3,4   0:05.45 chrome
+16690 omega     20   0 1088956 250156  80680 S   0,0  4,1   4:19.73 chrome
+22716 omega     20   0  941484 158768  72072 S   0,0  2,6   0:03.08 chrome
+22869 omega     20   0  846312 118464  72972 S   0,0  1,9   0:00.88 chrome
+22884 omega     20   0  878000 137316  67340 S   0,0  2,2   0:02.04 chrome
+22898 omega     20   0  852112 119228  65268 S   0,0  2,0   0:02.03 chrome
+22916 omega     20   0  800432  92428  61480 S   0,0  1,5   0:00.32 chrome
+24768 root      20   0   55184   9900   5544 S   0,0  0,2   0:00.20 vim
+24854 omega     20   0 1062440 179976  83552 S   0,0  2,9   0:11.30 chrome
+25007 omega     20   0 1061832 177112  78548 S   0,0  2,9   0:15.78 chrome
+25236 root      20   0       0      0      0 S   0,0  0,0   0:00.06 kworker/u8:1
+26028 root      20   0       0      0      0 S   0,0  0,0   0:00.10 kworker/0:0
+27058 root      20   0       0      0      0 S   0,0  0,0   0:00.29 kworker/2:1
+28214 root      20   0       0      0      0 S   0,0  0,0   0:00.05 kworker/1:3
+28249 root      20   0       0      0      0 S   0,0  0,0   0:00.16 kworker/3:0
+28285 root      20   0       0      0      0 S   0,0  0,0   0:00.02 kworker/u8:2
+28958 root      20   0       0      0      0 S   0,0  0,0   0:00.10 kworker/1:0
+29206 omega     20   0  858188 121096  71668 S   0,0  2,0   0:01.10 chrome
+29246 root      20   0       0      0      0 S   0,0  0,0   0:00.03 kworker/3:1
+29652 root      20   0       0      0      0 S   0,0  0,0   0:00.01 kworker/u8:0
+29893 omega     20   0   22692   5284   3300 S   0,0  0,1   0:00.02 bash
+29918 root      20   0       0      0      0 S   0,0  0,0   0:00.06 kworker/0:3
+30300 omega     20   0 1717520 310204 127112 S   0,0  5,1   8:30.44 chrome
+30307 omega     20   0    7452    704    628 S   0,0  0,0   0:00.00 cat
+30308 omega     20   0    7452    680    604 S   0,0  0,0   0:00.00 cat
+30311 omega     20   0  375308  49236  39892 S   0,0  0,8   0:00.22 chrome
+30312 omega     20   0   81444   8884   6500 S   0,0  0,1   0:00.00 nacl_helper
+30315 omega     20   0  375308  11928   2576 S   0,0  0,2   0:00.24 chrome
+30332 omega     20   0  896932 125088  72324 S   0,0  2,0   0:01.54 chrome
+30372 omega     20   0  774612 352340 153828 S   0,0  5,8   3:39.26 chrome
+30386 omega     20   0  387424  22212   8092 S   0,0  0,4   0:00.00 chrome
+30403 omega     20   0 1269372 362464 110692 S   0,0  5,9   7:46.90 chrome
+30418 root      20   0       0      0      0 S   0,0  0,0   0:00.05 kworker/2:2
+30428 omega     20   0  904820 109088  53844 S   0,0  1,8   4:45.68 chrome
+30447 omega     20   0 1137248 277632  55812 S   0,0  4,5   0:57.90 chrome
+30459 omega     20   0  774888  78480  55588 S   0,0  1,3   0:00.75 chrome
+30529 omega     20   0  880176 143584  77352 S   0,0  2,3   0:04.59 chrome
+30552 root      20   0       0      0      0 S   0,0  0,0   0:00.03 kworker/3:2
+30562 omega     20   0  969712 175400  91084 S   0,0  2,9   0:03.75 chrome
+30564 omega     20   0  908320 160444  86308 S   0,0  2,6   0:06.22 chrome
+30649 root      20   0       0      0      0 S   0,0  0,0   0:00.02 kworker/1:1
+30661 omega     20   0   22692   5304   3320 S   0,0  0,1   0:00.04 bash
+31019 omega     20   0  928320 171444  68416 S   0,0  2,8   0:04.43 chrome
+31079 omega     20   0  990184 194788  76360 S   0,0  3,2   0:12.16 chrome
+31088 omega     20   0  848760 116600  71320 S   0,0  1,9   0:01.12 chrome
+31111 omega     20   0 1169452 144256  74608 S   0,0  2,4   0:01.76 chrome
+31170 omega     20   0  803020  92784  61336 S   0,0  1,5   0:00.44 chrome
+31180 omega     20   0 1009044 221900  91956 S   0,0  3,6   0:11.77 chrome
+31194 omega     20   0 1029528 240112  97340 S   0,0  3,9   0:12.24 chrome
+31204 omega     20   0  922144 169240  69044 S   0,0  2,8   0:04.18 chrome
+31833 omega     20   0  645160  13756   9448 S   0,0  0,2   0:00.42 unity-scope-hom
+31844 omega     20   0  649512  20312  11212 S   0,0  0,3   0:00.46 unity-scope-loa
+31847 omega     20   0  860140  13684   9008 S   0,0  0,2   0:00.12 unity-files-dae
+31886 omega     20   0  867308  35112  25400 S   0,0  0,6   0:00.69 tilda
+31901 omega     20   0   36064  18672   3380 S   0,0  0,3   0:00.36 bash
+32213 omega     20   0 1047548 268664  83380 S   0,0  4,4   0:27.03 chrome

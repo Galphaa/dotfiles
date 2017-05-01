@@ -1,0 +1,302 @@
+32213
+31204
+31194
+31180
+31170
+31111
+31088
+31079
+31019
+30564
+30529
+30459
+30447
+30428
+30403
+30386
+30372
+30315
+30311
+30300
+25915
+25094
+25007
+24854
+22916
+22898
+22884
+22869
+22716
+16690
+12665
+7523
+7177
+5336
+1609
+759
+ PPID COMMAND         %MEM
+    0 systemd          0.0
+    0 kthreadd         0.0
+    2 ksoftirqd/0      0.0
+    2 kworker/0:0H     0.0
+    2 rcu_sched        0.0
+    2 rcu_bh           0.0
+    2 migration/0      0.0
+    2 watchdog/0       0.0
+    2 watchdog/1       0.0
+    2 migration/1      0.0
+    2 ksoftirqd/1      0.0
+    2 kworker/1:0H     0.0
+    2 watchdog/2       0.0
+    2 migration/2      0.0
+    2 ksoftirqd/2      0.0
+    2 kworker/2:0H     0.0
+    2 watchdog/3       0.0
+    2 migration/3      0.0
+    2 ksoftirqd/3      0.0
+    2 kworker/3:0H     0.0
+    2 kdevtmpfs        0.0
+    2 netns            0.0
+    2 perf             0.0
+    2 khungtaskd       0.0
+    2 writeback        0.0
+    2 ksmd             0.0
+    2 khugepaged       0.0
+    2 crypto           0.0
+    2 kintegrityd      0.0
+    2 bioset           0.0
+    2 kblockd          0.0
+    2 ata_sff          0.0
+    2 md               0.0
+    2 devfreq_wq       0.0
+    2 kswapd0          0.0
+    2 vmstat           0.0
+    2 fsnotify_mark    0.0
+    2 ecryptfs-kthrea  0.0
+    2 kthrotld         0.0
+    2 acpi_thermal_pm  0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 bioset           0.0
+    2 scsi_eh_0        0.0
+    2 scsi_tmf_0       0.0
+    2 scsi_eh_1        0.0
+    2 scsi_tmf_1       0.0
+    2 scsi_eh_2        0.0
+    2 scsi_tmf_2       0.0
+    2 scsi_eh_3        0.0
+    2 scsi_tmf_3       0.0
+    2 ipv6_addrconf    0.0
+    2 deferwq          0.0
+    2 charger_manager  0.0
+    2 bioset           0.0
+    2 kpsmoused        0.0
+    2 kworker/2:1H     0.0
+    2 kworker/0:1H     0.0
+    2 jbd2/sda1-8      0.0
+    2 ext4-rsv-conver  0.0
+    2 kauditd          0.0
+    1 systemd-journal  0.0
+    2 kworker/1:1H     0.0
+    1 systemd-udevd    0.0
+    2 kworker/3:1H     0.0
+    2 kvm-irqfd-clean  0.0
+    2 UVM global queu  0.0
+    2 UVM Tools Event  0.0
+    2 jbd2/sda5-8      0.0
+    2 ext4-rsv-conver  0.0
+    1 systemd-timesyn  0.0
+    1 avahi-daemon     0.0
+    1 acpid            0.0
+    1 systemd-logind   0.0
+    1 snapd            0.3
+    1 ModemManager     0.1
+    1 whoopsie         0.1
+    1 dbus-daemon      0.0
+30315 chrome           3.0
+  691 avahi-daemon     0.0
+    1 accounts-daemon  0.1
+    1 smartd           0.0
+    1 NetworkManager   0.2
+    1 rsyslogd         0.0
+    1 cron             0.0
+    1 glance-registry  1.6
+    1 glance-api       2.1
+    1 irqbalance       0.0
+    1 preload          0.1
+    1 polkitd          0.1
+    1 lightdm          0.0
+ 2216 gnome-terminal-  0.6
+ 1306 bash             0.0
+    1 sshd             0.0
+ 1313 su               0.0
+ 1324 zsh              0.1
+30315 chrome           8.0
+  951 Xorg             0.9
+  807 dnsmasq          0.0
+    2 irq/29-nvidia    0.0
+    2 nvidia           0.0
+    1 nvidia-persiste  0.0
+  850 glance-registry  1.5
+  850 glance-registry  1.5
+  850 glance-registry  1.5
+  850 glance-registry  1.5
+  951 lightdm          0.0
+    1 systemd          0.0
+ 2210 (sd-pam)         0.0
+ 2204 upstart          0.0
+ 2216 upstart-udev-br  0.0
+ 2216 dbus-daemon      0.0
+ 2216 window-stack-br  0.1
+ 2216 ssh-agent        0.0
+ 2216 upstart-dbus-br  0.0
+ 2216 gpg-agent        0.0
+ 2216 bamfdaemon       0.5
+ 2216 upstart-file-br  0.0
+ 2216 upstart-dbus-br  0.0
+ 2216 ibus-daemon      0.1
+ 2216 gvfsd            0.0
+ 2216 gvfsd-fuse       0.0
+  856 glance-api       2.0
+ 2375 ibus-dconf       0.0
+ 2375 ibus-ui-gtk3     0.5
+  856 glance-api       2.0
+ 2216 ibus-x11         0.3
+  856 glance-api       2.0
+  856 glance-api       2.0
+ 2216 at-spi-bus-laun  0.1
+ 2413 dbus-daemon      0.0
+ 2216 at-spi2-registr  0.0
+ 2375 ibus-engine-sim  0.0
+ 2216 hud-service      0.6
+ 2216 unity-settings-  0.4
+ 2216 gnome-session-b  0.2
+ 2216 unity-panel-ser  0.5
+    1 upowerd          0.1
+ 2216 indicator-messa  0.1
+ 2216 indicator-bluet  0.0
+ 2216 indicator-power  0.1
+ 2216 indicator-datet  0.2
+ 2216 indicator-keybo  0.4
+ 2216 indicator-sound  0.1
+ 2216 indicator-print  0.3
+ 2216 indicator-sessi  0.1
+ 2216 indicator-appli  0.2
+ 2216 evolution-sourc  0.3
+ 2216 dconf-service    0.0
+ 2216 pulseaudio       0.1
+    1 rtkit-daemon     0.0
+ 2216 evolution-calen  0.8
+ 2216 compiz           5.3
+    1 colord           0.1
+ 2610 evolution-calen  0.7
+ 2216 evolution-addre  0.2
+ 2610 evolution-calen  0.8
+ 2643 evolution-addre  0.2
+ 2216 gvfs-udisks2-vo  0.1
+    1 udisksd          0.1
+ 2216 gvfs-afc-volume  0.1
+ 2216 gvfs-gphoto2-vo  0.0
+ 2216 gvfs-mtp-volume  0.0
+ 2216 gvfs-goa-volume  0.0
+ 2216 nautilus         0.7
+ 2216 gvfsd-trash      0.1
+ 2461 polkit-gnome-au  0.3
+ 2461 unity-fallback-  0.3
+ 2461 gnome-software   1.9
+ 2461 nm-applet        0.4
+ 2461 tilda            0.5
+ 2461 synergy          0.9
+    1 agetty           0.0
+ 2216 gconfd-2         0.0
+    1 fwupd            0.5
+ 2756 bash             0.0
+ 2216 gvfsd-network    0.1
+ 2216 gvfsd-metadata   0.0
+ 2757 synergyc         0.1
+ 2216 gvfsd-dnssd      0.1
+ 2461 zeitgeist-datah  0.2
+ 2216 sh               0.0
+ 3507 zeitgeist-daemo  0.1
+ 2216 zeitgeist-fts    0.2
+ 1306 bash             0.0
+ 3862 su               0.0
+ 3872 zsh              0.1
+ 2461 update-notifier  0.3
+ 2216 unity-music-dae  0.2
+30315 chrome           3.4
+ 1306 bash             0.0
+ 6876 su               0.0
+ 6886 zsh              0.1
+ 2461 deja-dup-monito  0.1
+30315 chrome           1.7
+30315 chrome           1.7
+ 2216 notify-osd       0.4
+ 3934 vim              0.1
+    2 kworker/1:1      0.0
+    1 cups-browsed     0.1
+  807 dhclient         0.0
+30315 chrome           3.4
+30315 chrome           4.0
+30315 chrome           2.5
+30315 chrome           1.9
+30315 chrome           2.2
+30315 chrome           1.9
+30315 chrome           1.5
+ 1325 vim              0.1
+ 6887 vim              0.1
+30315 chrome           3.2
+    2 kworker/0:3      0.0
+30315 chrome           4.2
+30315 chrome           3.5
+    2 kworker/u8:1     0.0
+    2 kworker/2:0      0.0
+ 1306 bash             0.0
+25319 su               0.0
+25329 zsh              0.1
+    2 kworker/3:1      0.0
+    2 kworker/3:3      0.0
+    2 kworker/1:0      0.0
+30315 chrome           3.4
+    2 kworker/0:0      0.0
+    2 kworker/u8:0     0.0
+    2 kworker/2:1      0.0
+    2 kworker/1:2      0.0
+    2 kworker/1:3      0.0
+    2 kworker/3:0      0.0
+    2 kworker/0:1      0.0
+    2 kworker/u8:2     0.0
+25330 ps               0.0
+ 2216 chrome           5.0
+30300 cat              0.0
+30300 cat              0.0
+30300 chrome           0.8
+30311 nacl_helper      0.1
+30311 chrome           0.1
+30300 chrome           5.4
+30372 chrome           0.3
+30315 chrome           5.9
+30315 chrome           1.8
+30315 chrome           5.2
+30315 chrome           1.2
+30315 chrome           2.3
+30315 chrome           2.6
+30315 chrome           2.8
+30315 chrome           3.1
+30315 chrome           1.9
+30315 chrome           2.3
+30315 chrome           1.5
+30315 chrome           3.6
+30315 chrome           3.9
+30315 chrome           2.7
+ 2216 unity-scope-hom  0.2
+ 2216 unity-scope-loa  0.3
+ 2216 unity-files-dae  0.2
+ 2216 tilda            0.5
+31886 bash             0.3
+30315 chrome           4.3
