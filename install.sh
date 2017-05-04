@@ -2,7 +2,9 @@
 
 apt-get -y update && apt-get -y upgrade 
 
-cat list.txt | xargs apt-get -y install   # Installing all files needed for first usage
+# Installing all files needed for first usage
+
+cat list.txt | xargs apt-get -y install   
 
 apt-get -y update && apt-get -y upgrade 
 
@@ -30,4 +32,6 @@ add-apt-repository -y ppa:nilarimogard/webupd8
 apt-get update
 apt-get install pulseaudio-equalizer
 
+# Disable 
 
+rm ~/.local/share/keyrings/*
