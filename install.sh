@@ -23,7 +23,7 @@ apt-get -y update
 
 wget http://archive.getdeb.net/ubuntu/pool/apps/s/synergy/synergy_1.8.8-1~getdeb1_amd64.deb    
 dpkg -i synergy_1.8.8-1~getdeb1_amd64.deb
-apt-get -f install 
+apt-get -f install -y
 
 
 # installing repo and then installing pulseaudio-equalizer for more easy control for audio system.
