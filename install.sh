@@ -2,14 +2,14 @@
 
 apt-get -y update && apt-get -y upgrade 
 
-# Installing all files needed for first usage
+# Installing all files needed for first usage.
 
 cat list.txt | xargs apt-get -y install   
 
 apt-get -y update && apt-get -y upgrade 
 
 
-# Installing ATOM
+# Installing ATOM.
 
 cd
 mkdir .installs
@@ -26,12 +26,12 @@ dpkg -i synergy_1.8.8-1~getdeb1_amd64.deb
 apt-get -f install 
 
 
-# installing repo and then installing pulseaudio-equalizer for more easy control for audio system
+# installing repo and then installing pulseaudio-equalizer for more easy control for audio system.
 
 add-apt-repository -y ppa:nilarimogard/webupd8 
 apt-get update
 apt-get install pulseaudio-equalizer
 
-# Disable 
+# Disable Chrome annoying keyloging after this command once will be requested.
 
 rm ~/.local/share/keyrings/*
