@@ -30,7 +30,7 @@ apt-get -f install -y
 
 add-apt-repository -y ppa:nilarimogard/webupd8 
 apt-get update
-apt-get install pulseaudio-equalizer
+apt-get install -y pulseaudio-equalizer
 
 # Disable Chrome annoying keyloging after this command once will be requested.
 
@@ -38,7 +38,7 @@ rm ~/.local/share/keyrings/*
 
 # Putting font for zshall 
 
-cp ourceCodePro+Powerline+Awesome+Regular.ttf /usr/share/fonts/truetype/
+cp SourceCodePro+Powerline+Awesome+Regular.ttf /usr/share/fonts/truetype/
 
 # Making configuration for confuguring vundell .bashrc .vimrc and tmux.config (before evry fonfiguration is needed .")
 
@@ -52,7 +52,7 @@ cp bashrc.txt ~/.bashrc
 
 # Installing Oh My Zsh
 
-apt-get install zsh
+apt-get install -y  zsh
 
 sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
