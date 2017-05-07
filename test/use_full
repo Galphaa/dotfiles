@@ -1,7 +1,0 @@
-cut -d ' ' --output-delimiter=$'\n' -f 1- FILE NAME
-
- pidof chrome > a; cut -d ' ' --output-delimiter=$'\n' -f 1- a > l 
-ps -e --format="comm %mem ppid" > kl
-top -b -n1 > top.txt 
-ps -C chrome -o %cpu,%mem,cmd
-ps aux | grep python | awk '{sum=sum+$6}; END {print sum/1024 " MB"}'
