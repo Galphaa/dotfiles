@@ -5,3 +5,4 @@ Cloud 0 terminal background #2F08F9
 Laptop terminal backround #17347D
 
 
+New color #00327D
