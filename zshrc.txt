@@ -1,4 +1,4 @@
-export TERM=xterm-<t_CO>color
+export TERM=xterm-256color
 
 # If you come from bash you might have to change your $PATH.
 #
@@ -89,4 +89,3 @@ source $ZSH/oh-my-zsh.sh
   alias digi="ssh root@galpha.me"
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
