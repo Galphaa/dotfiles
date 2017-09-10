@@ -1,6 +1,6 @@
  set nocompatible
 
- so ~/.vim/plugins.vim
+ so ~/.vim/bundle/plugins.vim
 
  syntax enable
 
