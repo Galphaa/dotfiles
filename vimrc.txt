@@ -1,16 +1,14 @@
  set nocompatible
-
  so ~/.vim/bundle/plugins.vim
-
  syntax enable
-
  colorscheme ron
  set linebreak                                   "this make words braking look more smooth"
  set number                                      "to make numbers appear.
  let mapleader=','
  set wildmenu                                    "gives suggestion for tabbing like zsh.
  set scrolloff=5                                 "when scrolling down courser stays on5 line above or down during scroling 
- "<-------------Searching ------------->"
+
+"<-------------Searching ------------->"
  set hlsearch
  set t_CO=256                                    "set terminal to read 256bit color spe    ctroom"
  set incsearch
@@ -22,6 +20,11 @@
 
  nmap <Leader>ev :tabedit $MYVIMRC<cr>
  nmap <Leader><space> :nohlsearch<cr>
+
+ # Opening curser last position in file vim
+ if has("autocmd")
+ au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
+ exe "normal! g'\"" | endif
 
  augroup autosourcing
          autocmd!
@@ -49,4 +52,6 @@
 "---------------Indentation-Guides-------------------"
 
 set listchars=tab:\|\ 
-set list
+set listset tabstop=4
+set shiftwidth=4
+set expandtab
