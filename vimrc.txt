@@ -7,6 +7,7 @@
  let mapleader=','
  set wildmenu                                    "gives suggestion for tabbing like zsh.
  set scrolloff=5                                 "when scrolling down courser stays on5 line above or down during scroling 
+ set undolevels=1000
 
 "<-------------Searching ------------->"
  set hlsearch
