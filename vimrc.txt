@@ -22,7 +22,6 @@
  nmap <Leader>ev :tabedit $MYVIMRC<cr>
  nmap <Leader><space> :nohlsearch<cr>
 
- # Opening curser last position in file vim
  if has("autocmd")
  au BufReadPost * if line("'\"") > 1 && line("'\"") <= line("$") |
  exe "normal! g'\"" | endif
@@ -53,6 +52,6 @@
 "---------------Indentation-Guides-------------------"
 
 set listchars=tab:\|\ 
-set listset tabstop=4
+set tabstop=4
 set shiftwidth=4
 set expandtab
