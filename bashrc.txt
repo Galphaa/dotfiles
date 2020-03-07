@@ -16,8 +16,10 @@ HISTCONTROL=ignoreboth
 shopt -s histappend
 
 # for setting history length see HISTSIZE and HISTFILESIZE in bash(1)
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=1000000
+HISTFILESIZE=$HISTSIZE
+HISTCONTROL=ignorespace:ignoredups
+
 
 # check the window size after each command and, if necessary,
 # update the values of LINES and COLUMNS.
@@ -88,7 +90,7 @@ fi
  alias ll='ls -l'
  alias la='ls -A'
  alias l='ls -CF'
-
+ alias k='kubectl'
 # Alias definitions.
 # You may want to put all your additions into a separate file like
 # ~/.bash_aliases, instead of adding them here directly.
@@ -108,3 +110,8 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+# append to history, don't overwrite it
+shopt -s histappend                      
+PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
+
