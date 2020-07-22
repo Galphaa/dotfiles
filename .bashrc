@@ -115,3 +115,7 @@ fi
 shopt -s histappend                      
 PROMPT_COMMAND="${PROMPT_COMMAND:+$PROMPT_COMMAND$'\n'}history -a; history -c; history -r"
 
+# set vim as default editor
+export VISUAL=vim
+export EDITOR="$VISUAL"
+
