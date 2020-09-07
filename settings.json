@@ -78,7 +78,7 @@
         // To learn more about selection, visit https://aka.ms/terminal-selection
         { "command": {"action": "copy", "singleLine": false }, "keys": "ctrl+c" },
 
-        { "command": "nextTab", "keys": "ctrl+pgip" },
+        { "command": "nextTab", "keys": "ctrl+pgup" },
         { "command": "prevTab", "keys": "ctrl+pgdn" },
         { "command": "paste", "keys": "ctrl+v" },
         { "command": "closePane", "keys": "ctrl+w" },
