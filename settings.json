@@ -80,7 +80,7 @@
 
         { "command": "nextTab", "keys": "ctrl+pgup" },
         { "command": "prevTab", "keys": "ctrl+pgdn" },
-        { "command": "paste", "keys": "ctrl+v" },
+        { "command": "paste", "keys": "ctrl+shift+v" },
         { "command": "closePane", "keys": "ctrl+w" },
         { "command": "newTab", "keys": "ctrl+t" },
         { "command": "copy", "keys" : "ctrl+shift+c" },
